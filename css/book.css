@@ -1,0 +1,391 @@
+body{
+	background:#F7F7F7 ;
+}
+header{
+	height: 60px;
+	background-color: #fff;
+}
+h1{
+/* 	line-height: 90px; */
+	width: 1180px;
+	margin:0px auto;
+	height: 60px;
+}
+h1 img{
+	margin-top: 9px;
+	height: 42px;
+}
+.progress ul{
+	margin: 0px auto;
+	width: 1180px;
+	height: 16px;
+}
+.progress ul li{
+	float: left;
+	width: 283px;
+	height: 16px;
+	margin-right: 12px;
+	font-size: 12px;
+	color: #9A9A9A;
+	position: relative;
+	/* background: lime; */
+}
+.progress ul li:nth-of-type(4){
+	margin-right: 0px;
+}
+.progress ul li b{
+	font-weight: normal;
+	display: inline-block;
+	width: 254px;
+	margin-right: 5px;
+	height: 6px;
+	background:#DDDDDD ;
+	border-radius: 5px;
+}
+.progress li:nth-of-type(1) b{
+	background: #ACD252;
+}
+.progress li:nth-of-type(1){
+	color: #799D08;
+}
+.progress li span{
+	position: absolute;
+	background: url('../images/1_2down.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	top: 1px;
+	right: 27px;
+}
+.progress li:nth-of-type(1) span{
+	background-position: 0px -229px;
+}
+.progress li:nth-of-type(2) span,li:nth-of-type(3) span,li:nth-of-type(4) span{
+	background-position: 0px -287px;
+}
+main{
+	height: 890px;
+	width: 1180px;
+	margin: 16px auto 0px;
+}
+footer{
+	height: 80px;
+	background: lime;
+}
+
+.main_left{
+	width: 762px;
+	height: 890px;
+	float: left;
+}
+.main_left>div{
+	margin-bottom: 10px;
+}
+.main_left .login{
+    line-height: 48px;
+    background: white;
+	padding-left: 54px;
+	color: #333333;
+	position: relative;
+	font-size: 14px;
+}
+.main_left .login b{
+	font-weight: normal;
+	color:#2577E3;
+}
+.main_left .login a{
+	color:#2577E3;
+   	text-decoration: none;
+   	padding-left: 17px;
+}
+.main_left .login span{
+	width: 24px;
+	height: 24px;
+	background: url('../images/6_1round.png') no-repeat
+	0px 0px ;
+	position: absolute;
+	left: 20px;
+	top: 16px;
+	background-size: 120px;
+}
+.main_left .login a:nth-of-type(2){
+	padding-left: 10px;
+}
+.main_left .passenger{
+    height: 266px;
+    background: white;
+}
+.passenger h4{
+	font-size: 20px;
+	margin-left: 20px;
+	line-height: 55px;
+	font-weight: bold;
+}
+.passenger h4 span{
+	padding-left:14px ;
+	color: #2577E3;
+	font-size: 13px;
+	font-weight: normal;
+}
+.passenger>ul{
+	margin-left: 20px;
+}
+.passenger>ul>li{
+	height: 140px;
+	width: 720px;
+	background: #F7F7F7;
+}
+.passenger>ul>li>p:nth-of-type(1){
+	color: #333333;
+	font-size: 14px;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+.passenger>ul>li>p:nth-of-type(1) span{
+	color:#2577E3;
+	padding-left: 10px;
+	font-size: 13px;
+}
+.passenger>ul>li>p:nth-of-type(2) input{
+	width: 365px;
+	height: 32px;
+	margin-left: 20px;
+	margin-top: 15px;
+	border: none;
+
+}
+.passenger>ul>li .id ol{
+	line-height: 32px;
+	padding-left: 10px;
+	width: 70px;
+	font-size: 14px;
+	color: #333333;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	background: #fff;
+	display: inline-block;
+
+}
+.passenger .id>ol>li{
+	position: relative;
+}
+.passenger .id span{
+	width: 10px;
+	height: 8px;
+	background: url('../images/6_1round.png')
+	no-repeat -1px -227px;
+	top: 10px;
+	right: 10px;
+	position: absolute;
+	background-size: 122px; 
+}
+.passenger>ul>li .id input{
+	float: left;
+	width: 272px;
+	height:  32px;
+	background: #fff;
+	margin-top: 10px;
+	border: none;
+}
+.passenger button{
+	margin-left: 20px;
+	margin-top: 16px;
+	height: 37px;
+	width: 140px;
+	border: 1px solid #3B85E6;
+	color: #3B85E6;
+	font-size: 16px;
+	background: #fff;
+}
+.main_left .contacts{
+	height: 104px;
+	background: white;
+}
+.contacts h4{
+	font-size: 20px;
+	margin-left: 20px;
+	line-height: 52px;
+	font-weight: bold;
+}
+.contacts b{
+    padding-left: 10px;
+	float: left;
+	display: inline-block;
+	font-weight: normal;
+	width: 120px;
+	margin-left: 20px;
+	line-height: 32px;
+	color: #999999;
+	background: #fff;
+	border: 1px solid  #999999;
+}
+.contacts input{
+	float: left;
+	height: 32px;
+	width: 440px;
+	background: #fff;
+	margin-left: 10px;
+	border: 1px solid  #999999;
+}
+.main_left .insurance{
+	height: 157px;
+	background: white;
+	position: relative;
+}
+.insurance .s1{
+	background: url('../images/6_2baozhang.png')
+	no-repeat 3px 18px;
+	position: absolute;
+	width: 123px;
+	height: 113px;
+	top: 29px;
+	left: 30px;
+	background-size: 120px;
+}
+.insurance .s2{
+	background: url('../images/6_3tianjiabaoz.png')
+	no-repeat -7px -2px;
+	position: absolute;
+	height: 75px;
+	width: 226px;
+	right: 8px;
+	top: -20px;
+	background-size: 240px;
+}
+.insurance_main{
+	height: 65px;
+	width: 433px;
+	margin-left: 170px;
+	margin-top: 48px;
+/* 	background: pink; */
+	float: left;
+}
+.insurance_main p:nth-of-type(1){
+	color: #333333;
+	font-size: 24px;
+	font-weight: bold;
+}
+.insurance_main p:nth-of-type(1) i{
+	font-size: 3px;
+	color: #FF6913;
+	font-style: normal;
+}
+.insurance_main p:nth-of-type(1) b{
+	font-weight: normal;
+	font-size: ;
+	color:  #FF6913;
+}
+.insurance_main p:nth-of-type(2){
+	font-size: ;
+	color: #9999A6;
+	margin-top: 25px;
+}
+.insurance button{
+	margin-top: 62px;
+	background:#2577E3 ;
+	float: right;
+	width: 117px;
+	line-height: 33px;
+	margin-right: 42px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+
+}
+.main_left .invoice{
+	line-height: 66px;
+	background: white;
+	margin-bottom: 8px;
+	padding-left: 47px;
+	position: relative;
+}
+.invoice span{
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	background: url('../images/6_1round.png')
+	no-repeat 0px -164px;
+	left: 20px;
+	top: 29px;
+	background-size: 123px;
+}
+.invoice p{
+	color: #333333;
+	font-size: 20px;
+}
+.invoice b{
+	font-size: 14px;
+	color: #7F6666;
+	font-weight: normal;
+	padding-left: 8px;
+}
+.main_left .agreement{
+  	height: 40px;
+  	background: white;
+  	margin-bottom: 18px;
+}
+.agreement p{
+	line-height: 20px;
+	font-size: 12px;
+	color: #666666;
+	background: #F7F7F7;
+}
+.main_left .enjoyment{
+	height: 68px;
+	width: 762px;
+	border: none;
+	background: #FF6913;
+	margin-bottom: 10px;
+}
+.enjoyment .p1{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.enjoyment .p2{
+	color: #fff;
+	font-size: 16px;
+}
+.main_left .book{
+    height: 66px;
+    width: 762px;
+    background: #F7F7F7;
+    border: 1px solid #FF6913;
+
+}
+.book .p1{
+	color: #FF6913;
+	font-size: 18px;
+	font-weight: bold;
+}
+.book .p2{
+	color: #FE6913;
+	font-size: 14px;
+}
+.main_right{
+	width: 410px;
+	height: 730px;
+	background: orange;
+	float: right;           
+}
+.main_right .imformation{
+	height: 455px;
+	width: 410px;
+	background: #EFF6FC;
+}
+.main_right .order{
+	height: 170px;
+	width: 410px;
+	background: #fff;
+}
+.main_right .coupon{
+	height: 60px;
+	background  : #FFFFFF;
+	margin: 10px 0px;
+}
+..main_right .tips{
+	height: 198px;
+	background: #fff;
+}
+

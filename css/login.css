@@ -1,0 +1,249 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+header{
+	height: 80px;
+/* 	background-color: red; */
+}
+h1{
+	line-height: 90px;
+	width: 980px;
+	margin:0px auto;
+}
+h1 img{
+	width: 116px;
+}
+h4{
+   line-height: 35px;
+   background-color:#FFFCD8; 
+   font-size: 12px;
+   text-align: center;
+   color: #666666;
+}
+h4 span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url('../images/2_2warn.png') no-repeat 
+	0px -191px;
+}
+h4 .img{
+	width: 16px;
+}
+main{
+    height: 540px;
+    background: #60B1E6;
+}
+.background{
+	width: 980px; 
+    height: 540px;
+    margin: 0px auto; 
+    background-color: lime;
+    background: url('../images/2_3background.jpg') no-repeat -470px 0px;
+    overflow: hidden; 
+}
+main .changeScanlogin{
+    width: 32px;
+	height: 104px;
+	margin-right: 40px;
+	margin-top: 50px;
+	float: right;
+	background-color: #3882E5;
+	line-height: 16px;
+	text-align: center;
+}
+.changeScanlogin a{
+	width: 14px;
+	height: 85px;
+    /* background: red; */
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+.changeScanlogin .littlecode{
+	display: inline-block;
+	height: 14px;
+	width: 14px;
+	background: url('../images/2_4right.png') 
+	no-repeat -19px 0px;
+}
+	
+main .loginbox{
+	float: right;
+	height: 420px;
+	width: 380px;
+	margin-top: 40px;
+	background: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+}
+.loginbox h2{
+	margin: 30px auto 24px;
+	font-size: 18px;;
+	color: #888888;
+}
+.loginbox h2 a{
+	font-size: 12px;
+	color: #86817E;
+	margin-left: 145px;
+	text-decoration: none;
+} 
+.loginbox .loginname{
+	border: none;
+	width: 302px;
+	height: 38px;
+	font-size: 12px;
+	color: #BBBBCA;
+	padding-left: 16px;
+	border-radius: 3px;
+	border: 1px solid #E5E5E5;
+	outline: none;
+}
+.input_password{
+	width: 318px;
+	height: 38px;
+	border: 1px solid #E5E5E5;
+	margin: 16px auto 23px;
+	line-height: 38px;
+}
+.input_password .password{
+	margin-left: 16px;
+	float: left;
+	margin-top: 11px;
+	border: none;
+}
+.input_password a{
+	margin-right: 16px;
+	float: right;
+	font-size: 12px;
+	text-decoration: none;
+}
+.loginstyle{
+	font-size: 12px;
+	color: #7E7266;
+	width: 320px;
+	margin: 0px auto 16px;
+}
+.loginstyle i{
+	font-style: normal;
+	float: left;
+	display: inline-block;
+}
+.loginstyle .checkbox{
+	/* float: left; */
+	margin-left: 2px;
+}
+.loginstyle b{
+	float: right;
+	font-weight: normal;
+}
+.loginstyle b span{
+	width: 12px;
+	height: 12px;
+	background: url('../images/2_4right.png')
+	no-repeat -1px -1px;
+	display: inline-block;
+}
+.loginbutton{
+	border: none;
+	width: 320px;
+	height: 40px;
+	background-color: #FF9A14;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin: 16px auto 14px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 3px;
+}
+.loginbox u{
+	text-decoration: none;
+	font-size: 12px;
+	color: #7E7266;
+	display: inline-block;
+	margin-bottom: 52px;
+}
+.loginbox u a{
+	font-size: 12px;
+	color: #7E7266;
+}
+.login-about a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #7E7266;
+}
+.login-about a:nth-of-type(5){
+	padding-left: 34px;
+	color: #60B1E6;
+}
+.login-about a:hover{
+	text-decoration:underline;
+}
+.login-about span{
+	padding: 0px 10px;
+	font-size: 12px;
+	color: #7E7266;
+}
+.icon{
+	width: 320px;
+	height: 30px;
+	margin-top: 5px;
+}
+.icon span{
+    width: 30px;
+    height: 30px;
+    background: url('../images/2_5qq.png')
+    no-repeat;
+    margin-right: 18px;
+    display: inline-block;
+}
+.icon .alipay{
+	background-position: 0px 0px;
+}
+.icon .qq{
+	background-position: -35px 0px;
+}
+.icon .baidu{
+	background-position: -70px 0px;
+}
+.icon .sina{
+	background-position: -105px 0px;
+}
+.icon .wechat{
+	background-position: -140px 0px;
+}
+footer{
+	margin-top:  60px;
+    height: 86px;
+}
+footer .base{
+	width: 980px;
+	height: 86px;
+	margin: 0px auto;
+	border-top: 1px dashed #6AAADF;
+	line-height: 86px;
+	font-size: 12px;
+	color: #7E7266;
+	text-align: center;
+    text-decoration: none;
+}
+footer .base b{
+	font-weight: normal;
+
+}
+footer .base a{
+    text-decoration: none;
+    font-size: 12px;
+	color: #7E7266;
+}
+footer .base i{
+	font-style: normal;
+	font-size: 12px;
+	color: #7E7266;
+	text-align: center;
+    text-decoration: none;
+}
