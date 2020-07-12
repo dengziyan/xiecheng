@@ -1,5 +1,4 @@
-	
-    //language显示
+ //language显示
     $('.language').mouseenter(function(){
     	$(this).children('.country').addClass('showcountry');
     })
@@ -60,55 +59,25 @@
 	});
 
 
-//轮播图
+    //selectbox 里面的操作
+	$('.selectbox ul li').click(function(event) {
+				// index获取用户当前操作标签的索引值
+				console.log($(this).index())
+				$(this).css('background', 'red');
+				$(this).siblings().css('background', 'none');
 
-   $(function(){
-        var timer;
-        var num=0;
+				$('.detailbox>div').eq($(this).index()).addClass('current');
+				$('.detailbox>div').eq($(this).index()).siblings().removeClass('current')
 
-        function gogo(){
-            clearInterval(timer)
-            timer=setInterval(function(){
-                num++;
-                if(num>5){
-                    num=0;
-                }
-                // 让ul左移;
-                $('.banner ul').css('left', -num*1920+'px');
-                // 对应的圆圈增加类
-                $('.banner ol li').eq(num).addClass('current');
-                // 兄弟姐妹删除类
-                $('.banner ol li').eq(num).siblings().removeClass('current');
-                // $('ol li').eq(num).addClass('current').siblings().removeClass('current');
-            },4000)
-        }
-        gogo();
-        // 给div增加鼠标移入移出事件
-        $('.banner').hover(function() {
-            // 鼠标移入停止定时器
-            clearInterval(timer)
-        }, function() {
-            // 鼠标移出开始定时器
-            gogo();
-        });
-        // 点击索引
-        $('.banner ol li').click(function(event) {
-            num=$(this).index();
-            $('.banner ul').css('left', -num*1920+'px');
-            $(this).addClass('current');
-            $(this).siblings().removeClass('current');
-        });
-    })
-   //section第一层table的显示
-   $('.sectiontable .top1 li').click(function(event) {
-        $('.banner .sectiontable .section1>div').eq($(this).index()).addClass('current');
-        $('.banner .sectiontable .section1>div').eq($(this).index()).siblings().removeClass('current')
-   });
+			});
 
+	 //.main_left ol 里面的操作
+	$('.main_left .drop-down').click(function(event) {
+				// index获取用户当前操作标签的索引值
+				$(this).css('background', 'red');
+				$(this).siblings().css('background', 'none');
 
-   //.detailed的显示
-   $('.main_left').children().hover(function() {
-   	    $(this).children().children('.detailed').show();
-   }, function() {
-   	    $(this).children().children('.detailed').hide();
-   });
+				$(this).children('ol').addClass('current');
+				$(this).children().siblings().removeClass('current')
+
+			});

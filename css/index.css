@@ -179,7 +179,7 @@
 }
 .sup_main_right{
 	float: right;
-	width: 713px;
+	width: 586px;
 	height: 36px;
 /* 	background: yellow; */
 }
@@ -275,45 +275,11 @@
 	padding: 0px 15px;
 }
 .sup_main_right .box>li:nth-of-type(7){
-	line-height: 36px;
-	width: 123px;
+	width: 35px;
+	height: 36px;
+/* 	background: wheat; */
 	position: relative;
-}
-.sup_main_right .box>li:nth-of-type(7):hover{
-	background:rgba(37, 119, 227) ;
-}
-.sup_main_right .box>li:nth-of-type(7):hover b{
-	background: none;
-}
-.sup_main_right .box>li:nth-of-type(7) .icon{
-	position: absolute;
-	width: 15px;
-	height: 15px;
-	top: 10px;
-	left: 15px;
-	background: url('../images/3_1firstline.png') no-repeat 
-	-97px -37px;
-}
-.sup_main_right .box>li:nth-of-type(7) .littleicon{
 
-	background: url('../images/3_1firstline.png')
-	no-repeat -101px -133px;
-	width: 8px;
-	height: 6px;
-	position: absolute;
-	left: 95px;
-	top: 15px;
-}
-.sup_main_right .box>li:nth-of-type(7) b{
-	border-left: 1px solid #DDDDDD;
-	border-right: 1px solid #DDDDDD;
-	font-weight: normal;
-	padding: 0px 30px;
-	background: #D6E2F2;
-	border-radius: 8px;
-	height: 23px;
-	width: 70px;
-	color: #2577E3;
 }
 .sup_main_right .box>li:nth-of-type(8){
 	width: 35px;
@@ -322,14 +288,7 @@
 	position: relative;
 
 }
-.sup_main_right .box>li:nth-of-type(9){
-	width: 35px;
-	height: 36px;
-/* 	background: wheat; */
-	position: relative;
-
-}
-.sup_main_right .box>li:nth-of-type(8) .s6{
+.sup_main_right .box>li:nth-of-type(7) .s6{
 	background: url('../images/3_1firstline.png')
 	no-repeat;
 	width: 20px;
@@ -339,7 +298,7 @@
 	left: 18px;
 	top: 9px;
 }
-.sup_main_right .box>li:nth-of-type(8) i{
+.sup_main_right .box>li:nth-of-type(7) i{
 	position: absolute;
 	top: 36px;
 	left: -105px;
@@ -350,21 +309,21 @@
 	border: 1px solid #DDDDDD;
 	display: none;
 }
-.sup_main_right .box>li:nth-of-type(8) p{
+.sup_main_right .box>li:nth-of-type(7) p{
 	line-height: 10px;
 	font-size: 13px;
 	color: #666666;
 	padding: 10px;
 }
-.sup_main_right .box>li:nth-of-type(8) p:nth-of-type(2){
+.sup_main_right .box>li:nth-of-type(7) p:nth-of-type(2){
 	color: #fff;
 	background: #A4CBFF;
 	padding: 10px;
 }
-.sup_main_right .box>li:nth-of-type(8) i img{
+.sup_main_right .box>li:nth-of-type(7) i img{
 	margin: 15px auto 0px;
 }
-.sup_main_right .box>li:nth-of-type(9) .s7{
+.sup_main_right .box>li:nth-of-type(8) .s7{
 	background: url('../images/3_1firstline.png')
 	no-repeat;
 	width: 20px;
@@ -374,7 +333,7 @@
 	right:0px;
 	top: 11px; 
 }
-.sup_main_right .box>li:nth-of-type(9) i{
+.sup_main_right .box>li:nth-of-type(8) i{
 	position: absolute;
 	top: 36px;
 	left: -106px;
@@ -385,22 +344,22 @@
 	border: 1px solid #DDDDDD;
 	display: none;
 }
-.sup_main_right .box>li:nth-of-type(9) i img{
+.sup_main_right .box>li:nth-of-type(8) i img{
 	margin: 15px auto 0px;
 }
-.sup_main_right .box>li:nth-of-type(9) p{
+.sup_main_right .box>li:nth-of-type(8) p{
 	line-height: 10px;
 	font-size: 12px;
 	color: #666666;
 	padding: 5px;
 }
-.sup_main_right .box>li:nth-of-type(9) u{
+.sup_main_right .box>li:nth-of-type(8) u{
 	color: #FF9913;
 }
-.sup_main_right .box>li:nth-of-type(9) i.showcode{
+.sup_main_right .box>li:nth-of-type(8) i.showcode{
 	display: block;
 }
-.sup_main_right .box>li:nth-of-type(9) i.showcode{
+.sup_main_right .box>li:nth-of-type(7) i.showcode{
 	display: block;
 }
 .box::after{
@@ -799,6 +758,64 @@ nav>ul>li u{
 }
 .banner ol .current{
     background: #fff;
+}
+.banner .sectiontable{
+	position: absolute;
+	width: 5580px;
+	height: 300px;
+	margin-left: 170px;
+	margin-top: 20px;
+}
+.banner .sectiontable .top1{
+	width: 90px;
+	height: 300px;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 16px;
+	background: #2577E3;
+}
+.sectiontable .top1 li{
+	line-height: 42px;
+	width: 60px;
+	border-bottom: 1px dashed white;
+}
+.sectiontable .top1 li:nth-of-type(7){
+	border-bottom: none;
+}
+.sectiontable .top1 a{
+	font: 16px/42px "Microsoft YaHei",
+		SimSun, Tahoma, Verdana, Arial, sans-serif;
+		color: white;
+}
+.banner .sectiontable .section1{
+	float: left;
+	width: 5489px;
+	height: 300px;
+	background: yellow;
+}
+.banner .sectiontable .section1>div{
+	display: none;
+}
+.banner .sectiontable .section1>div:nth-of-type(1){
+	background:#fff;
+}
+.banner .sectiontable .section1>div:nth-of-type(2){
+	background: red;
+}
+.banner .sectiontable .section1>div:nth-of-type(3){
+	background: yellow;
+}
+.banner .sectiontable .section1>div:nth-of-type(4){
+	background: wheat;
+}
+.banner .sectiontable .section1>div:nth-of-type(5){
+	background: pink;
+}
+.banner .sectiontable .section1>div:nth-of-type(6){
+	background: red;
+}
+.banner .sectiontable .section1>div:nth-of-type(7){
+	background: red;
 }
 main{
 	background: #F6F6F6;

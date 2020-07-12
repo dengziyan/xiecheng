@@ -1,5 +1,4 @@
-	
-    //language显示
+ //language显示
     $('.language').mouseenter(function(){
     	$(this).children('.country').addClass('showcountry');
     })
@@ -58,57 +57,3 @@
 		$('.nav_bottom').children().show();
 		$('.navchildbox').removeClass('showli');
 	});
-
-
-//轮播图
-
-   $(function(){
-        var timer;
-        var num=0;
-
-        function gogo(){
-            clearInterval(timer)
-            timer=setInterval(function(){
-                num++;
-                if(num>5){
-                    num=0;
-                }
-                // 让ul左移;
-                $('.banner ul').css('left', -num*1920+'px');
-                // 对应的圆圈增加类
-                $('.banner ol li').eq(num).addClass('current');
-                // 兄弟姐妹删除类
-                $('.banner ol li').eq(num).siblings().removeClass('current');
-                // $('ol li').eq(num).addClass('current').siblings().removeClass('current');
-            },4000)
-        }
-        gogo();
-        // 给div增加鼠标移入移出事件
-        $('.banner').hover(function() {
-            // 鼠标移入停止定时器
-            clearInterval(timer)
-        }, function() {
-            // 鼠标移出开始定时器
-            gogo();
-        });
-        // 点击索引
-        $('.banner ol li').click(function(event) {
-            num=$(this).index();
-            $('.banner ul').css('left', -num*1920+'px');
-            $(this).addClass('current');
-            $(this).siblings().removeClass('current');
-        });
-    })
-   //section第一层table的显示
-   $('.sectiontable .top1 li').click(function(event) {
-        $('.banner .sectiontable .section1>div').eq($(this).index()).addClass('current');
-        $('.banner .sectiontable .section1>div').eq($(this).index()).siblings().removeClass('current')
-   });
-
-
-   //.detailed的显示
-   $('.main_left').children().hover(function() {
-   	    $(this).children().children('.detailed').show();
-   }, function() {
-   	    $(this).children().children('.detailed').hide();
-   });
